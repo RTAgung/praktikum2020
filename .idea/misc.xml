@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+  <component name="RMarkdownSettings">
+    <option name="renderProfiles">
+      <map>
+        <entry key="file://$PROJECT_DIR$/My Task/Tugas Modul 3/Tugas Modul 3.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/My Task/Tugas Modul 3/Tugas-Modul-3.docx" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/My Task/Tugas Modul 3" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/My Task/Tugas Modul 4/Tugas Modul 4.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/My Task/Tugas Modul 4/Tugas-Modul-4.docx" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/My Task/Tugas Modul 4" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/My Task/Tugas Modul 6/Tugas6_123180053.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/My Task/Tugas Modul 6/Tugas6_123180053.docx" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/My Task/Tugas Modul 6" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/modul7.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

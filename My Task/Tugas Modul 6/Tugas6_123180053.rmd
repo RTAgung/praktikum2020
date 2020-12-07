@@ -1,0 +1,57 @@
+---
+title: "Tugas Modul 6"
+author: Rama Tri Agung / 123180053 / Praktikum Data Science B
+date: 03/12/2020
+output: word_document
+---
+
+<br/><br/>
+```{r}
+# import library and get data set
+library(dplyr)
+library(dslabs)
+data(murders)
+```
+
+# Manipulasi Data Frame
+
+## Nomor 1
+```{r}
+murders <- mutate(murders, rate = total / population * 100000)
+head(murders)
+```
+
+## Nomor 2
+```{r}
+murders <- mutate(murders, rank = rank(desc(murders$rate)))
+head(murders)
+```
+
+## Nomor 3
+```{r}
+select(murders, state, abb) %>% head()
+```
+
+## Nomor 4
+```{r}
+filter(murders, rank <= 5)
+```
+
+## Nomor 5
+```{r}
+filter(murders, region == "Northeast" | region == "West", rate < 1) %>%
+        select(state, rate, rank)
+```
+
+
+# Operator Pipe
+
+## Nomor 1
+```{r}
+data(murders)
+my_states <- murders %>%
+        mutate(rate = total / population * 100000) %>%
+        filter(region == "Northeast" | region == "East" | region == "West", rate < 1) %>%
+        select(state, region, rate)
+my_states
+```
