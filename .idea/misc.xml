@@ -4,6 +4,14 @@
   <component name="RMarkdownSettings">
     <option name="renderProfiles">
       <map>
+        <entry key="file://$PROJECT_DIR$/My Task/Kuis/DS-B_KUIS_NIM.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/My Task/Kuis/DS-B_KUIS_NIM.docx" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/My Task/Kuis" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/My Task/Tugas Modul 3/Tugas Modul 3.rmd">
           <value>
             <RMarkdownRenderProfile>
